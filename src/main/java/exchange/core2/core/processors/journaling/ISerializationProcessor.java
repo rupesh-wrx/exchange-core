@@ -111,6 +111,11 @@ public interface ISerializationProcessor {
         MATCHING_ENGINE_ROUTER("ME");
 
         final String code;
+
+        @Override
+        public String toString() {
+            return code;
+        }
     }
 
 }
